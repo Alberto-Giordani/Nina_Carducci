@@ -89,6 +89,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 16px;
 }
 
 #about-me p {
@@ -103,6 +104,7 @@ body {
 .title {
 	text-align: center;
 	padding-block: 2em;
+	font-size: 1.75rem;
 }
 
 .gallery .nav {
@@ -111,7 +113,7 @@ body {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-	color: #fff;
+	color: #212529;
 	background-color: #BEB45A;
 	border-radius: 0;
 }
@@ -161,10 +163,10 @@ body {
 }
 
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral';
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2.5rem;
 }
 
 .quote__author {
@@ -234,7 +236,10 @@ body {
 
 .form-container {
 	flex: 2;
+}
 
+.form-container h2 {
+	font-size: 1.75rem;
 }
 
 form {
@@ -282,7 +287,7 @@ input[type="submit"] {
 		margin-bottom: 1em;
 	}
 
-	#about-me h6,
+	#about-me h3,
 	#about-me p {
 		width: 100%;
 	}
